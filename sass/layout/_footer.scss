@@ -1,0 +1,13 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 57px;
+  background: #2f303a;
+}
+
+.contacts-info-list {
+  margin-top: 20px;
+  
+    &-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+}

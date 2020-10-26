@@ -1,0 +1,27 @@
+
+.portfolio-filter {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  
+  &-list {
+  text-align: center;
+    margin-bottom: 50px;
+    
+            &-item {
+        display: inline-block;
+        text-align: center;
+        margin: 0 auto;
+        
+            &:not(:last-child) {
+            margin-right: 8px;
+}
+}
+}
+}
+
+.card-content {
+  padding: 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+}

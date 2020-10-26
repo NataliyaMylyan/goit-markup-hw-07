@@ -1,0 +1,24 @@
+.logo-name {
+  &:hover {
+    cursor: pointer;
+  }
+  &-header {
+  @include font;
+  margin-right: 93px;
+  padding: 24px 0 25px 0;
+  color: #000000;
+  }
+  &-footer {
+    font-family: $secondary-font;
+ @include font;
+    color: #fff;
+  }
+  &-one {
+    font-family: $secondary-font;
+ @include font;
+    color: #2196f3;
+  }
+  .footer & {
+    margin-bottom: 20px;
+  }
+}

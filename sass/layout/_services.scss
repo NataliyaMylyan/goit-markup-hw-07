@@ -1,0 +1,20 @@
+
+.section-services {
+  padding-bottom: 94px;
+  
+  &-title {
+  margin-bottom: 50px;
+}
+&-list {
+  display: flex;
+  
+        &-item {
+  position: relative;
+  
+            &:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
+}
+}
+}
