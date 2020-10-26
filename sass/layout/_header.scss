@@ -12,7 +12,7 @@
 
     &-link {
       @include display;
-      @include fontvar (500, 14px, 1.143, 0.02em);
+      @include fontvar(500, 14px, 1.143, 0.02em);
       color: #757575;
       transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -49,7 +49,7 @@
   }
 
   &-list-link {
-    @include fontvar (500, 14px, 1.143, 0.02em);
+    @include fontvar(500, 14px, 1.143, 0.02em);
     color: #212121;
     cursor: pointer;
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);

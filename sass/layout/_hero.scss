@@ -9,21 +9,21 @@
       rgba(47, 48, 58, 0.4)
     ),
     url("../images/background/background-photo.jpg");
-    
-        &-title {
-  @include fontvar (900, 44px, 1.364, 0.06em);
-  text-align: center;
-  text-transform: uppercase;
-  padding-left: 252px;
-  padding-right: 252px;
-  margin-bottom: 30px;
-  color: #ffffff;
-}
+
+  &-title {
+    @include fontvar(900, 44px, 1.364, 0.06em);
+    text-align: center;
+    text-transform: uppercase;
+    padding-left: 252px;
+    padding-right: 252px;
+    margin-bottom: 30px;
+    color: #ffffff;
+  }
 }
 
 .button {
   background: #2196f3;
-  @include fontvar (700, 16px, 1.875, 0.06em);
+  @include fontvar(700, 16px, 1.875, 0.06em);
   display: flex;
   align-items: center;
   text-align: center;
